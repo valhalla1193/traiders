@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Contact US</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Staatliches');
+        </style>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet'/>
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div class="contactsheader">
+        <div class="navbar">
+                <div class="navbar__content">
+            <div class="logo"></div>
+            <div class="menu">
+                <ul class="menu__ul">
+                    <li><a href="index1.html">Главная</a></li>
+                    <li><a href="index1.html#speakers">Эксперты</a></li>
+                    <li><a href="index1.html#sponsors">Спонсоры</a></li>
+                    <li><a href="index1.html#venue">Локация</a></li>
+                    <li><a href="***">Результаты'19</a></li>
+                    <li><a href="index2.html">Свяжитесь с нами</a></li>
+                </ul>
+                <div class="language">
+                    <div class="language__png">
+                        <a href="index2.html"><img class="flag"src="en.jpg"></a>
+                </div>
+            </div>
+            <div class="menu__img">
+                <div class="menu__img1"></div>
+                <div class="menu__img2"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- <div class="contacts-spacer"></div> -->
+    <div class="contacts-container">
+        <div class="contacts-container__name">[Свяжитесь с нами]</div>
+        <div class="contacts-container__content">
+                <!-- <div class="contacts-container__info">
+                   <div class="info__name">NAME OF ORGANIZER</div>
+                    <div class="info__adress"><i class="fas fa-map-marker-alt"></i>
+            Hmelnitskogo street, 17 Kiev, 01030</div>
+                    <div class="info__tel"><i class="fas fa-mobile-alt"></i>
+                        093************</div>
+                    <div class="info__mail"><i class="fas fa-envelope"></i>
+                        example@mail.ru</div>
+                </div> -->
+        <div class="contacts-container__inputs">
+            <!-- вот эта форма -->
+                <form action="send.php" method="post">
+                    <p>Ваше Имя<br>
+                    <input name="firstname" required></p>
+                    <p>Ваша Фамилия<br>
+                        <input name="lastname" required></p>
+                        <p>Компания<br>
+                            <input name="company"></p>
+                    <p>Электронная почта<br>
+                        <input name="youremail" required></p>
+                        <p>Номер Телефона<br>
+                            <input name="yourphone"></p>
+                            <p>Страна<br>
+                                <input name="country" required></p>
+                                <p>Веб-сайт<br>
+                                    <input name="web-site"></p>
+                            <p>Комментарий<br>
+                                <textarea class="message" name="yourmessage" size="100"></textarea></p>
+                                <input class="inputsubmit" type="submit" value="отправить">
+                </form>  
+                 <!-- вот эта форма -->     
+        </div>
+    </div>
+    </div>
+    <section class="footer">
+            <div class="footer__info">
+                <div class="footer__logo"></div>
+                <div class="footer__contacts">
+                        <div class="facebook"><img src="fcb.png"></div>
+                    <div class="mailtel">
+                            <span><i class="fas fa-map-marker-alt"></i>
+                                Hmelnitskogo street, 17 Kiev, 01030</span>
+                        <span><i class="fas fa-mobile-alt"></i> +380**********</span>
+                        <span><i class="fas fa-envelope"></i> example@mail.ru</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__img"></div>
+        </section>
+        <script src="app.js"></script>
+</body>
+</html>
